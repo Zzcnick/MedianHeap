@@ -1,13 +1,28 @@
 public class RunningMedian{
-		ALHeap minHeap;
-		ALHeap maxHeap;
+		MinHeap minHeap;
+		MaxHeap maxHeap;
 		int median;
 	
 		public class RunningMedian(){
-			minHeap = new ALHeap();
-			maxHeap = new ALHeap();
+			minHeap = new MinHeap();
+			maxHeap = new MaxHeap();
+			median = 0;
+		}
+		
+		
+		public void add(){
+			
 			
 		}
-
+		
+		
+		
+		public int getMed(){
+			return median;
+		}
+		
+		public static void main(String[] args){
+			
+		}
 
 }
