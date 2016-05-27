@@ -50,7 +50,7 @@ public class MaxHeap{
 
 
     /*****************************************************
-      * Integer peekMin()
+      * Integer peekMax()
       * Returns max value in heap
       * Postcondition: Heap remains unchanged.
       *****************************************************/
@@ -93,8 +93,8 @@ public class MaxHeap{
 
 
     /*****************************************************
-     * removeMin()  ---  means of removing an element from heap
-     * Removes and returns least element in heap.
+     * removeMax()  ---  means of removing an element from heap
+     * Removes and returns largest element in heap.
      * Postcondition: Tree maintains heap property.
      *****************************************************/
     public Integer removeMax() {
@@ -142,7 +142,7 @@ public class MaxHeap{
 
 
     /*****************************************************
-     * maxChildPos(int)  ---  helper fxn for removeMin()
+     * maxChildPos(int)  ---  helper fxn for removeMax()
      * Returns index of least child, or 
      * -1 if no children, or if input pos is not in ArrayList
      * Postcondition: Tree unchanged
